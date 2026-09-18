@@ -31,7 +31,7 @@ The cargo run is going to print the contents of /etc/hosts.
 This program obviously open the file but don't do nothing out of it.
 
 >[! Notes]
-> In rust we must create a file to contains our buffer ( file )
+> In rust we must create a buffer to contains our buffer ( file )
 > Reading and writing to a file are both able to fail 
 
 ### Reading file with C
