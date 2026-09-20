@@ -1,5 +1,7 @@
 # woody_woodpacker
 
+![alt text](image.png)
+
 ## Overview
 
 A packer for 64-bit ELF binaries, written in C. It takes an executable, encrypts it, and produces a new binary (`woody`) that decrypts itself in memory at runtime and executes identically to the original — while announcing its encrypted state with `....WOODY....` on startup.
