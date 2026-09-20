@@ -1,6 +1,6 @@
 # woody_woodpacker
 
-![alt text](docs/assets/image.png)
+![alt text](docs/assets/readme/image.png)
 
 ## Overview
 
