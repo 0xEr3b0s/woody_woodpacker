@@ -1,6 +1,0 @@
-- [[Plan]]
-- [[Reading file the hard way]]
-- [[Making your own packer]]
-- [[ELF Object File Format]]
-- [[Useful links]]
-- 

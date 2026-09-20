@@ -1,4 +1,0 @@
-- [[# Part 1 (node.js, C, rust, strace)]]
-- [[Part 2 (x86 asm, linux kernel)]]
-- [External Link](https://fasterthanli.me/series/reading-files-the-hard-way/part-1)
-- 
