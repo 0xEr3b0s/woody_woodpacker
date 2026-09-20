@@ -8,6 +8,631 @@
       "-Iincludes",
       "-c",
       "-o",
+      "obj/convert/ft_atoi.o",
+      "srcs/convert/ft_atoi.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/convert/ft_atoi.c",
+    "output": "/workspace/libft/obj/convert/ft_atoi.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/convert/ft_atol.o",
+      "srcs/convert/ft_atol.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/convert/ft_atol.c",
+    "output": "/workspace/libft/obj/convert/ft_atol.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/convert/ft_itoa.o",
+      "srcs/convert/ft_itoa.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/convert/ft_itoa.c",
+    "output": "/workspace/libft/obj/convert/ft_itoa.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_isalnum.o",
+      "srcs/ctype/ft_isalnum.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_isalnum.c",
+    "output": "/workspace/libft/obj/ctype/ft_isalnum.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_isalpha.o",
+      "srcs/ctype/ft_isalpha.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_isalpha.c",
+    "output": "/workspace/libft/obj/ctype/ft_isalpha.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_isascii.o",
+      "srcs/ctype/ft_isascii.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_isascii.c",
+    "output": "/workspace/libft/obj/ctype/ft_isascii.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_isdigit.o",
+      "srcs/ctype/ft_isdigit.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_isdigit.c",
+    "output": "/workspace/libft/obj/ctype/ft_isdigit.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_isprint.o",
+      "srcs/ctype/ft_isprint.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_isprint.c",
+    "output": "/workspace/libft/obj/ctype/ft_isprint.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_tolower.o",
+      "srcs/ctype/ft_tolower.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_tolower.c",
+    "output": "/workspace/libft/obj/ctype/ft_tolower.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/ctype/ft_toupper.o",
+      "srcs/ctype/ft_toupper.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/ctype/ft_toupper.c",
+    "output": "/workspace/libft/obj/ctype/ft_toupper.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/fd/ft_putchar_fd.o",
+      "srcs/fd/ft_putchar_fd.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/fd/ft_putchar_fd.c",
+    "output": "/workspace/libft/obj/fd/ft_putchar_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/fd/ft_putendl_fd.o",
+      "srcs/fd/ft_putendl_fd.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/fd/ft_putendl_fd.c",
+    "output": "/workspace/libft/obj/fd/ft_putendl_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/fd/ft_putnbr_fd.o",
+      "srcs/fd/ft_putnbr_fd.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/fd/ft_putnbr_fd.c",
+    "output": "/workspace/libft/obj/fd/ft_putnbr_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/fd/ft_putstr_fd.o",
+      "srcs/fd/ft_putstr_fd.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/fd/ft_putstr_fd.c",
+    "output": "/workspace/libft/obj/fd/ft_putstr_fd.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/gnl/get_next_line.o",
+      "srcs/gnl/get_next_line.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/gnl/get_next_line.c",
+    "output": "/workspace/libft/obj/gnl/get_next_line.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/gnl/get_next_line_utils.o",
+      "srcs/gnl/get_next_line_utils.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/gnl/get_next_line_utils.c",
+    "output": "/workspace/libft/obj/gnl/get_next_line_utils.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_bzero.o",
+      "srcs/mem/ft_bzero.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_bzero.c",
+    "output": "/workspace/libft/obj/mem/ft_bzero.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_calloc.o",
+      "srcs/mem/ft_calloc.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_calloc.c",
+    "output": "/workspace/libft/obj/mem/ft_calloc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_memchr.o",
+      "srcs/mem/ft_memchr.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_memchr.c",
+    "output": "/workspace/libft/obj/mem/ft_memchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_memcmp.o",
+      "srcs/mem/ft_memcmp.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_memcmp.c",
+    "output": "/workspace/libft/obj/mem/ft_memcmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_memcpy.o",
+      "srcs/mem/ft_memcpy.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_memcpy.c",
+    "output": "/workspace/libft/obj/mem/ft_memcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_memmove.o",
+      "srcs/mem/ft_memmove.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_memmove.c",
+    "output": "/workspace/libft/obj/mem/ft_memmove.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/mem/ft_memset.o",
+      "srcs/mem/ft_memset.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/mem/ft_memset.c",
+    "output": "/workspace/libft/obj/mem/ft_memset.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/printf/ft_printf.o",
+      "srcs/printf/ft_printf.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/printf/ft_printf.c",
+    "output": "/workspace/libft/obj/printf/ft_printf.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/printf/pf_utils.o",
+      "srcs/printf/pf_utils.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/printf/pf_utils.c",
+    "output": "/workspace/libft/obj/printf/pf_utils.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_split.o",
+      "srcs/string/ft_split.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_split.c",
+    "output": "/workspace/libft/obj/string/ft_split.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strchr.o",
+      "srcs/string/ft_strchr.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strchr.c",
+    "output": "/workspace/libft/obj/string/ft_strchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strdup.o",
+      "srcs/string/ft_strdup.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strdup.c",
+    "output": "/workspace/libft/obj/string/ft_strdup.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_striteri.o",
+      "srcs/string/ft_striteri.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_striteri.c",
+    "output": "/workspace/libft/obj/string/ft_striteri.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strjoin.o",
+      "srcs/string/ft_strjoin.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strjoin.c",
+    "output": "/workspace/libft/obj/string/ft_strjoin.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strlcat.o",
+      "srcs/string/ft_strlcat.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strlcat.c",
+    "output": "/workspace/libft/obj/string/ft_strlcat.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strlcpy.o",
+      "srcs/string/ft_strlcpy.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strlcpy.c",
+    "output": "/workspace/libft/obj/string/ft_strlcpy.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strlen.o",
+      "srcs/string/ft_strlen.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strlen.c",
+    "output": "/workspace/libft/obj/string/ft_strlen.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strmapi.o",
+      "srcs/string/ft_strmapi.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strmapi.c",
+    "output": "/workspace/libft/obj/string/ft_strmapi.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strncmp.o",
+      "srcs/string/ft_strncmp.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strncmp.c",
+    "output": "/workspace/libft/obj/string/ft_strncmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strnstr.o",
+      "srcs/string/ft_strnstr.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strnstr.c",
+    "output": "/workspace/libft/obj/string/ft_strnstr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strrchr.o",
+      "srcs/string/ft_strrchr.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strrchr.c",
+    "output": "/workspace/libft/obj/string/ft_strrchr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_strtrim.o",
+      "srcs/string/ft_strtrim.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_strtrim.c",
+    "output": "/workspace/libft/obj/string/ft_strtrim.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/string/ft_substr.o",
+      "srcs/string/ft_substr.c"
+    ],
+    "directory": "/workspace/libft",
+    "file": "/workspace/libft/srcs/string/ft_substr.c",
+    "output": "/workspace/libft/obj/string/ft_substr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-Ilibft/includes",
+      "-c",
+      "-o",
       "obj/main.o",
       "srcs/main.c"
     ],
