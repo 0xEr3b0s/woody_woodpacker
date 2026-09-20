@@ -1,6 +1,6 @@
 # woody_woodpacker
 
-![alt text](image.png)
+![alt text](docs/assets/image.png)
 
 ## Overview
 

@@ -58,3 +58,4 @@ dkms.conf
 # others
 .obsidian
 _templates
+.DS_Store

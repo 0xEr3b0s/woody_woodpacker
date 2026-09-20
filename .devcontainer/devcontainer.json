@@ -1,12 +1,42 @@
 {
-  "name": "Linux Dev",
+  "name": "Woody Woodpacker",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "options": [
+      "--platform=linux/amd64",
+      "--provenance=false"
+    ]
   },
-
+  "remoteUser": "dev",
   "workspaceFolder": "/workspace",
-
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "mounts": [
-    "source=${localWorkspaceFolder},target=/workspace,type=bind"
-  ]
+    "source=${localEnv:HOME}/dotfiles,target=/dotfiles,type=bind,readonly"
+  ],
+  "postCreateCommand": "mkdir -p ~/.config/clangd && ln -sf /dotfiles/config/clangd/config.yaml ~/.config/clangd/config.yaml && ln -sf /dotfiles/config/gdb/gdbinit ~/.gdbinit && ln -sf /dotfiles/config/clang-format/clang-format ~/.clang-format 2>/dev/null; true",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cpptools",
+        "13xforever.language-x86-64-assembly",
+        "ms-vscode.hexeditor"
+      ],
+      "settings": {
+        "clangd.arguments": [
+          "--compile-commands-dir=/workspace",
+          "--header-insertion=never"
+        ],
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "remoteEnv": {
+    "CC": "clang",
+    "CXX": "clang++"
+  },
+  "containerEnv": {
+    "TERM": "xterm-256color"
+  }
 }
