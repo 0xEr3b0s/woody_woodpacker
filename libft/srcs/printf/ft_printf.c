@@ -45,5 +45,6 @@ int	ft_printf(const char *format, ...)
 	va_start(args, format);
 	parse_arguments(format, &count_char, args);
 	va_end(args);
+	pf_putchar('\n');
 	return (count_char);
 }
