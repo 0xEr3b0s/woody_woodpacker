@@ -1,7 +1,7 @@
 #include "elf/parser.h"
 
 #include "libft.h"
-#include "error.h"
+#include "utils/error.h"
 
 int parse_elf(Elf64_Ehdr *header) {
 	(void)header;
