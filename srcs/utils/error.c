@@ -19,3 +19,8 @@ void	print_error(int error)
 			break ;
 	}
 }
+
+void fatal(int error) {
+	print_error(error);
+	exit(error);
+}
