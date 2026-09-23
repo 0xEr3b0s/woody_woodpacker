@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     ca-certificates \
     pkg-config \
+	valgrind \
     && rm -rf /var/lib/apt/lists/*
 
 # Utilisateur correspondant à ton environnement de développement

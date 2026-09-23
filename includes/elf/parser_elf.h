@@ -3,9 +3,11 @@
 
 #include <elf.h>
 
+#include "io/bin_io.h"
+
 #define ELF_HEADER_SIZE 64 // bytes ( octets )
 
-Elf64_Ehdr *parse_elf(uint8_t *content);
+Elf64_Ehdr *parse_elf(mapped_bin_t *bin);
 
 void open_executable(void);
 
