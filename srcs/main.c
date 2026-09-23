@@ -1,4 +1,4 @@
-#include <sys/mman.h>
+#include <stdlib.h>
 
 #include "woody.h"
 
@@ -12,13 +12,21 @@ int main(int ac, char **av) {
 
 	if (ac != 2) {
 		print_error(ERR_TOO_MUCH_ARG);
-		return ERR_TOO_MUCH_ARG;
+		return EXIT_FAILURE;
 	}
 
 	datas.bin = load_bin(av[1]);
+	if (datas.bin == NULL) {
+		free_ressources(&datas);
+		return EXIT_FAILURE;
+	}
+
 	datas.header = parse_elf(datas.bin);
+	if (datas.header == NULL) {
+		free_ressources(&datas);
+		return EXIT_FAILURE;
+	}
 
 	free_ressources(&datas);
-
-	return 0;
+	return EXIT_SUCCESS;
 }

@@ -1,12 +1,19 @@
 #include <stdlib.h>
 #include <sys/mman.h>
-#include <elf.h>
 
 #include "woody.h"
-#include "elf/parser_elf.h"
 #include "utils/cleaning.h"
 
 void free_ressources(data_t *datas) {
-	munmap(datas->bin->content, ELF_HEADER_SIZE);
+	if (datas == NULL || datas->bin == NULL) {
+		return;
+	}
+
+	if (datas->bin->content != NULL && datas->bin->content != MAP_FAILED) {
+		munmap(datas->bin->content, datas->bin->size);
+	}
+
 	free(datas->bin);
+	datas->bin = NULL;
+	datas->header = NULL;
 }
