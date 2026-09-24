@@ -17,7 +17,7 @@ srcs/
 │   └── keygen.c              ○ keygen — generates the random key
 │
 ├── io/
-│   └── bin_io.c              ● load_bin (reading); to extend: write_woody (writing)
+│   └── bin_io.c              ● read_bin (reading); to extend: write_woody (writing)
 │
 └── utils/
     ├── error.c              ● print_error / fatal

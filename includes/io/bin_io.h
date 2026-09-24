@@ -10,7 +10,11 @@ typedef struct mapped_bin_s {
 } mapped_bin_t;
 
 int open_bin(const char *bin);
+
+// READING
 mapped_bin_t *map_bin(int fd);
-mapped_bin_t *load_bin(const char *bin_name);
+mapped_bin_t *read_bin(const char *bin_name);
+
+// WRITING
 
 #endif

@@ -39,7 +39,7 @@ mapped_bin_t *map_bin(int fd) {
 	return mapped;
 }
 
-mapped_bin_t *load_bin(const char *bin_name) {
+mapped_bin_t *read_bin(const char *bin_name) {
 	int fd = open_bin(bin_name);
 	if (fd < 0) {
 		return NULL;

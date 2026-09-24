@@ -15,7 +15,7 @@ int main(int ac, char **av) {
 		return EXIT_FAILURE;
 	}
 
-	datas.bin = load_bin(av[1]);
+	datas.bin = read_bin(av[1]);
 	if (datas.bin == NULL) {
 		free_ressources(&datas);
 		return EXIT_FAILURE;
