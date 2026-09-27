@@ -29,10 +29,10 @@
 Knowledge, not code. Close each by explaining it aloud, without notes.
 
 - `[ x ]` **K1.1** Explain the role of `Elf64_Ehdr`.
-- `[ ]` **K1.2** Explain the role of `Elf64_Phdr`.
-- `[ ]` **K1.3** Explain how a `PT_LOAD` segment maps file bytes to memory.
-- `[ ]` **K1.4** Explain the tie between file offset and virtual address.
-- `[ ]` **K1.5** Explain how execution reaches `e_entry`.
+- `[ x ]` **K1.2** Explain the role of `Elf64_Phdr`.
+- `[ x ]` **K1.3** Explain how a `PT_LOAD` segment maps file bytes to memory.
+- `[ x ]` **K1.4** Explain the tie between file offset and virtual address.
+- `[ x ]` **K1.5** Explain how execution reaches `e_entry`.
 
 **Milestone done when** all five can be stated plainly.
 
@@ -46,8 +46,6 @@ Knowledge, not code. Close each by explaining it aloud, without notes.
 ---
 
 ## M2 — ELF parser  `[~]`
-
-> **Research notes:** [M2 — ELF parser](research/M2.md)
 
 The reading half. It interprets borrowed bytes and yields a *view*; it
 alters nothing.
@@ -101,8 +99,6 @@ input is rejected cleanly, and all ELF logic lives in the `elf` module.
 
 ## M3 — I/O  `[~]`
 
-> **Research notes:** [M3 — I/O](research/M3.md)
-
 The only quarter that touches descriptors and mappings.
 
 - `[x]` **T3.1 — Read into memory.** `load_bin` maps the file.
@@ -138,8 +134,6 @@ errors are handled, and nothing leaks.
 
 ## M4 — Packer design (on paper)
 
-> **Research notes:** [M4 — Packer design](research/M4.md)
-
 A decision milestone. Produce a diagram, not code.
 
 - `[ ]` **T4.1** Decide which region is enciphered (the target `PT_LOAD`).
@@ -161,8 +155,6 @@ A decision milestone. Produce a diagram, not code.
 ---
 
 ## M5 — Encryption
-
-> **Research notes:** [M5 — Encryption](research/M5.md)
 
 - `[ ]` **T5.1 — Generate a random key.**
   - Touches: `srcs/crypto/keygen.c`
@@ -199,8 +191,6 @@ stub's required data is fixed. (A plain ROT/XOR is *not* deemed advanced.)
 
 ## M6 — Stub (assembly)
 
-> **Research notes:** [M6 — Stub](research/M6.md)
-
 - `[ ]` **T6.1 — Position-independent addressing** of its own data.
   - Touches: `asm/stub.s`
   - Depends on: M5
@@ -236,8 +226,6 @@ control back cleanly.
 
 ## M7 — Injection and ELF modification
 
-> **Research notes:** [M7 — Injection](research/M7.md)
-
 - `[ ]` **T7.1 — Place the stub** in the chosen location.
   - Touches: `srcs/packer/stub.c`
   - Depends on: M4, M6
@@ -272,8 +260,6 @@ sits where intended.
 
 ## M8 — Integration
 
-> **Research notes:** [M8 — Integration](research/M8.md)
-
 - `[ ]` **T8.1 — Write `pack`** to chain parse → encrypt → inject → write.
   - Touches: `srcs/packer/packer.c`
   - Depends on: M2, M3, M5, M7
@@ -300,8 +286,6 @@ sits where intended.
 
 ## M9 — Testing
 
-> **Research notes:** [M9 — Testing](research/M9.md)
-
 - `[ ]` **T9.1** Minimal ELF · **T9.2** dynamically linked · **T9.3** PIE.
 - `[ ]` **T9.4** Varied segment layouts · **T9.5** varied sizes.
 - `[ ]` **T9.6** Programs with arguments · **T9.7** using stdin/stdout.
@@ -319,8 +303,6 @@ original where required.
 ---
 
 ## M10 — Hardening and cleanup
-
-> **Research notes:** [M10 — Cleanup](research/M10.md)
 
 - `[ ]` **T10.1** Review memory and descriptor handling.
 - `[ ]` **T10.2** Review error handling; verify permissions.
