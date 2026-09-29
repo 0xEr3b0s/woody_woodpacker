@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     pkg-config \
 	valgrind \
+	libcriterion-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Utilisateur correspondant à ton environnement de développement

@@ -21,8 +21,8 @@ int main(int ac, char **av) {
 		return EXIT_FAILURE;
 	}
 
-	datas.header = parse_elf(datas.bin);
-	if (datas.header == NULL) {
+	datas.view = parse_elf(datas.bin);
+	if (datas.view == NULL) {
 		free_ressources(&datas);
 		return EXIT_FAILURE;
 	}

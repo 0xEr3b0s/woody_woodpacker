@@ -50,7 +50,7 @@ Knowledge, not code. Close each by explaining it aloud, without notes.
 The reading half. It interprets borrowed bytes and yields a *view*; it
 alters nothing.
 
-- `[ ]` **T2.1 — Define the view.**
+- `[ x ]` **T2.1 — Define the view.**
   A struct gathering the borrowed `Ehdr`, the Phdr table (offset + count),
   the target `PT_LOAD`, and the entry point's file offset.
   - Touches: `includes/elf/parser_elf.h`

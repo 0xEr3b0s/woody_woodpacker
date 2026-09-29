@@ -14,6 +14,7 @@ void free_ressources(data_t *datas) {
 	}
 
 	free(datas->bin);
+	free(datas->view);
 	datas->bin = NULL;
-	datas->header = NULL;
+	datas->view = NULL;
 }
