@@ -55,3 +55,9 @@ dkms.conf
 *.dwo
 
 obj
+.vscode
+.devcontainer
+.git
+docs/
+woody_woodpacker
+.cache

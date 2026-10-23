@@ -1,0 +1,66 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/utils.o",
+      "srcs/utils.c"
+    ],
+    "directory": "/workspaces/woody_woodpacker",
+    "file": "/workspaces/woody_woodpacker/srcs/utils.c",
+    "output": "/workspaces/woody_woodpacker/obj/utils.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/main.o",
+      "srcs/main.c"
+    ],
+    "directory": "/workspaces/woody_woodpacker",
+    "file": "/workspaces/woody_woodpacker/srcs/main.c",
+    "output": "/workspaces/woody_woodpacker/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/header.o",
+      "srcs/header.c"
+    ],
+    "directory": "/workspaces/woody_woodpacker",
+    "file": "/workspaces/woody_woodpacker/srcs/header.c",
+    "output": "/workspaces/woody_woodpacker/obj/header.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Iincludes",
+      "-c",
+      "-o",
+      "obj/elf.o",
+      "srcs/elf.c"
+    ],
+    "directory": "/workspaces/woody_woodpacker",
+    "file": "/workspaces/woody_woodpacker/srcs/elf.c",
+    "output": "/workspaces/woody_woodpacker/obj/elf.o"
+  }
+]

@@ -2,7 +2,7 @@
 #  woody_woodpacker — Makefile
 #
 #  Directory structure:
-#    srcs/                 -> C and assembly source files
+#    srcs/ (recursive)     -> C and assembly source files, in any subdirectory
 #    includes/             -> header files
 #    obj/                  -> generated object files
 # ============================================================================
@@ -12,12 +12,12 @@ NAME    := woody_woodpacker
 CC      := cc
 AS      := nasm
 
-CFLAGS  := -Wall -Wextra -Werror
+CFLAGS  := -Wall -Wextra -Werror # -DDEBUG
 CPPFLAGS:= -Iincludes
 ASFLAGS := -f elf64
 
-SRCS    := $(wildcard srcs/*.c)
-ASM     := $(wildcard srcs/*.s)
+SRCS    := $(shell find srcs -name '*.c')
+ASM     := $(shell find srcs -name '*.s')
 OBJS    := $(SRCS:srcs/%.c=obj/%.o) $(ASM:srcs/%.s=obj/%.o)
 DEPS    := $(SRCS:srcs/%.c=obj/%.d)
 
@@ -40,12 +40,12 @@ $(NAME): $(OBJS)
 	@printf "$(GREEN)$(BOLD)[  OK  ]$(RESET) %s\n" "$@"
 
 obj/%.o: srcs/%.c
-	@mkdir -p obj
+	@mkdir -p $(@D)
 	@printf "$(CYAN)[  CC  ]$(RESET) %s\n" "$<"
 	@$(CC) $(CFLAGS) $(CPPFLAGS) -MMD -MP -c $< -o $@
 
 obj/%.o: srcs/%.s
-	@mkdir -p obj
+	@mkdir -p $(@D)
 	@printf "$(CYAN)[ NASM ]$(RESET) %s\n" "$<"
 	@$(AS) $(ASFLAGS) $< -o $@
 
